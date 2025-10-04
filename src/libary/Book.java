@@ -4,6 +4,12 @@ public class Book extends LibraryItem{
     protected String author;
     protected int numberPages;
 
+    // TENHO QUE DEFINIR O CONSTRUTOR DA CLASSE LIVRO
+    public Book(String name, int publicationYear, String author, int numberPages) {
+        super(name, publicationYear);
+        this.author = author;
+        this.numberPages = numberPages;
+    }
 
 
 
