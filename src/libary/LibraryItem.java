@@ -1,6 +1,11 @@
 package libary;
 
 public class LibraryItem {
-    String item;
-    int publicationYear;
+    protected String item;
+    protected int publicationYear;
+
+    protected void showItems(){
+        System.out.println(item);
+        System.out.println(publicationYear);
+    }
 }
