@@ -1,8 +1,54 @@
+/**
+ * ============================================
+ * 📚 Sistema de Gerenciamento de Biblioteca
+ * ============================================
+ *
+ * @autor
+ *     Riquelmy Soares Vasconcelos
+ *
+ * @data
+ *     Finalizado em: 04/10/2025 às 23:15
+ *
+ * @projeto
+ *     Sistema de biblioteca orientado a objetos em Java
+ *
+ * @descrição
+ *     Este programa simula um sistema simples de biblioteca onde é possível:
+ *     - Criar e registrar itens: Livro, Revista e Mídia Digital
+ *     - Armazenar todos os itens em uma lista com uso de polimorfismo (ArrayList<LibraryItem>)
+ *     - Utilizar herança para definir os diferentes tipos de itens
+ *     - Usar composição para permitir que o usuário empreste múltiplos itens
+ *     - Navegar por um menu interativo no terminal para gerenciar o sistema
+ *
+ * @funcionalidades
+ *     ✅ Herança (classe base LibraryItem + subclasses Book, Magazine, DigitalMedia)
+ *     ✅ Polimorfismo (método showItems sobrescrito em cada classe)
+ *     ✅ Composição (classe User contém uma lista de itens emprestados)
+ *     ✅ Criação dinâmica de itens via entrada do usuário com Scanner
+ *     ✅ Organização de código clara e objetiva para fins educacionais
+ *
+ * @linguagem
+ *     Java (estrutura e menus em inglês)
+ *
+ * @ferramentas
+ *     IDE: IntelliJ IDEA
+ *     JDK: Java 23.0.2 (build 23.0.2+7-58)
+ *     Sistema Operacional: Windows
+ *
+ * @licença
+ *     Uso educacional – Faculdade Unileste /  Estudos pessoais
+ *
+ * ============================================
+ */
+
+
 package library;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
+
+
 
 public class Main {
     public static void main(String[] args) {
