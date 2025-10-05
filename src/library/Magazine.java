@@ -1,12 +1,12 @@
-package libary;
+package library;
 import java.util.Date;
 
 public class Magazine extends LibraryItem{
     protected String edition;
     protected Date currentDate;
 
-    public Magazine(String edition, Date currentDate, String name, int publicationYear){
-        super(name, publicationYear);
+    public Magazine(String edition, Date currentDate, String title, int publicationYear){
+        super(title, publicationYear);
         this.edition = edition;
         this.currentDate = currentDate;
     }

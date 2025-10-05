@@ -1,12 +1,12 @@
-package libary;
+package library;
 
 public class DigitalMedia extends LibraryItem {
     protected String fileType;
     protected double storageMB;
 
     // mais uma vez, criando o construtor
-    public DigitalMedia(String fileType, double storageMB, String name, int publicationYear){
-        super(name, publicationYear);
+    public DigitalMedia(String fileType, double storageMB, String title, int publicationYear){
+        super(title, publicationYear);
         this.fileType = fileType;
         this.storageMB = storageMB;
     }
